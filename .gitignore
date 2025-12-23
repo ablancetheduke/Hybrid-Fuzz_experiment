@@ -1,0 +1,9 @@
+out/
+cache/
+broadcast/
+dist/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+results/temp_log.txt

@@ -1,0 +1,16 @@
+[profile.default]
+src = 'src'
+test = 'test'
+script = 'script'
+out = 'out'
+libs = ['lib']
+
+# 允许自动下载匹配的编译器版本 (非常重要！)
+auto_detect_solc = true
+
+# 忽略旧版本代码中的警告，防止日志太乱
+ignored_error_codes = [1878, 3420, 3628]
+
+# 模糊测试参数配置
+[fuzz]
+runs = 1000  # 默认运行1000次随机测试
