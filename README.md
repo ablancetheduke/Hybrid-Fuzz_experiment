@@ -74,11 +74,9 @@ Bash
 git clone https://github.com/ablancetheduke/Hybrid-Fuzz_experiment.git
 cd Hybrid-Fuzz_experiment
 
-# 运行全量实验测试
+# 运行测试
 bash script/run_benchmark.sh
 
-# 生成高级可视化图表
-python3 script/visualize_ultimate.py
 
 ✉️ 关于作者
 
